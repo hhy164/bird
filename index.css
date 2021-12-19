@@ -1,0 +1,73 @@
+.game{
+    width:800px;
+    height:500px;
+    border:2px solid;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.game .sky{
+    background:url("./image/天空.png");
+    width:200%;
+    height:100%;
+    position: absolute;
+    left:0
+}
+.game .land{
+    background:url('./image/草地.png');
+    height:112px;
+    width:200%;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.game .bird{
+    background:url('./image/bird.png');
+    position: absolute;
+    width:33px;
+    height:26px;
+    /* border:2px solid;    */
+    left:150px;
+    top:150px; 
+}
+.game .bird.swing1{
+    /* 小鸟是雪碧图,此时设置的是第一个鸟 */
+    background-position: -8px -10px;
+}
+.game .bird.swing2{
+    background-position: -60px -10px;
+}
+.game .bird.swing3{
+    background-position: -113px -10px;
+}
+.pipe{
+    position: absolute;
+    width:52px;
+    height:100px;
+    left:500px;
+}
+.pipe.up{
+    background:url('./image/down.png');
+    top:0;
+    background-position: bottom;
+
+}
+.pipe.down{
+    background:url('./image/up.png');
+    bottom:112px;
+}
+
+.info{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
